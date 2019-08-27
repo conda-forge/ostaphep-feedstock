@@ -1,6 +1,6 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.4.2.0" %}
-{% set hash = "ca1d18db3dcf8bae315576082cc0e875aeb6bda4b19235ae05aafe26fe4d4f7a" %}
+{% set version = "1.4.3.0" %}
+{% set hash = "be1b31e5f43a290c3e3d6a785d3ce945839eb6e038af7c69344dc62c4cf6b96e" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   folder: ostap
 
 build:
-  number: 1
+  number: 0
   skip: True  # [not linux]  
 
 requirements:
