@@ -30,7 +30,7 @@ requirements:
     - python
     - future
     - ipython
-    - configparser
+    - configparser  # [py2k]
 test:
   imports:
     - ostap
