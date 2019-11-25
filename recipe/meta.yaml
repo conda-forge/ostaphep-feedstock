@@ -23,6 +23,7 @@ requirements:
     - make
   host:
     - root_base
+    - root-binaries
     - python
     - gsl
   run:
