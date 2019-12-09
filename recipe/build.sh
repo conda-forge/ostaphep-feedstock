@@ -12,5 +12,5 @@ make -j${CPU_COUNT}
 make install
 
 if [ -e "${PREFIX}"/./thisostap.sh ]; then
-	rm "${PREFIX}"/./thisostap.*
+    rm "${PREFIX}"/./thisostap.*
 fi
