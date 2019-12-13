@@ -12,7 +12,7 @@ source:
   folder: ostap
 
 build:
-  number: 0
+  number: 1
   skip: True  # [not linux]
 
 requirements:
@@ -24,6 +24,7 @@ requirements:
   host:
     - root_base
     - root-binaries
+    - root-dependencies
     - python
     - gsl
   run:
