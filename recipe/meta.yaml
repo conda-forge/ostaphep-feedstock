@@ -12,8 +12,8 @@ source:
   folder: ostap
 
 build:
-  number: 0
-  skip: true  # [not linux]
+  number: 1
+  skip: True  # [win]
 
 requirements:
   build:
