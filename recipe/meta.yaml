@@ -27,10 +27,10 @@ requirements:
     - root-dependencies
     - python
     - gsl
-    - openblas
+    - openblas  # [osx]
   run:
-    - libblas * *openblas
-    - openblas
+    - libblas * *openblas  # [osx]
+    - openblas  # [osx]
     - python
     - future
     - ipython
