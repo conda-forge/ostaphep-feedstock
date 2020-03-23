@@ -27,7 +27,10 @@ requirements:
     - root-dependencies
     - python
     - gsl
+    - openblas
   run:
+    - libblas * *openblas
+    - openblas
     - python
     - future
     - ipython
