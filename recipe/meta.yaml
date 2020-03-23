@@ -1,6 +1,6 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.4.6.0" %}
-{% set hash = "d18992200bee91664f3a12e77c2ec9846d1c52370578b1032159111fca09e3b4" %}
+{% set version = "1.4.8.1" %}
+{% set hash = "b0241c9efe2a1c03356fe5226b85691734200d59d9ee35423b3b430207a1a50d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   folder: ostap
 
 build:
-  number: 2
-  skip: True  # [not linux]
+  number: 0
+  skip: true  # [not linux]
 
 requirements:
   build:
@@ -51,24 +51,24 @@ about:
   license_file: ostap/LICENSE
   dev_url: https://github.com/OstapHEP/ostap
   summary: |
-       The Ostap project is a community-driven
-       initiative aiming to provide more user friendly and more intuitive interface
-       to ROOT and PyROOT and extending the existing functionality.
+    The Ostap project is a community-driven
+    initiative aiming to provide more user friendly and more intuitive interface
+    to ROOT and PyROOT and extending the existing functionality.
   description: |
-      Nowadays ROOT and PyROOT are de-facto standard tools for performing physics analysis.
-      The Ostap project is a community-driven initiative aiming to provide more user friendly
-      and more intuitive interface to ROOT and PyROOT and extending the existing functionality.
-      Project started in 2009 from the private collections of python functions
-      used in Kali - framework for calibration of LHCb electromagnetic calorimeter.
-      A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiemnt.
-      Till Autumn 2016 the project was a part of LHCb software suit and with great success has been used
-      for preparation of approximately 30 physics papers. A standalone, LHCb independent version, has appeared at start of 2017
-      Key features include:
-       * Very easy manipulations with ROOT and RooFit objects: histograms, trees, datasets, etc
-       * Very easy interface to RooFit machinery
-       * Extended set of models.PDFs for RooFit
-       * Powerful, pickle-based persistency for object
-       * Interactive ostap analysis environment
+    Nowadays ROOT and PyROOT are de-facto standard tools for performing physics analysis.
+    The Ostap project is a community-driven initiative aiming to provide more user friendly
+    and more intuitive interface to ROOT and PyROOT and extending the existing functionality.
+    Project started in 2009 from the private collections of python functions
+    used in Kali - framework for calibration of LHCb electromagnetic calorimeter.
+    A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiemnt.
+    Till Autumn 2016 the project was a part of LHCb software suit and with great success has been used
+    for preparation of approximately 30 physics papers. A standalone, LHCb independent version, has appeared at start of 2017
+    Key features include:
+     * Very easy manipulations with ROOT and RooFit objects: histograms, trees, datasets, etc
+     * Very easy interface to RooFit machinery
+     * Extended set of models.PDFs for RooFit
+     * Powerful, pickle-based persistency for object
+     * Interactive ostap analysis environment
 
 extra:
   recipe-maintainers:
