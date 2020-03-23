@@ -12,8 +12,8 @@ source:
   folder: ostap
 
 build:
-  number: 0
-  skip: true  # [not linux]
+  number: 1
+  skip: True  # [win]
 
 requirements:
   build:
@@ -27,7 +27,10 @@ requirements:
     - root-dependencies
     - python
     - gsl
+    - openblas  # [osx]
   run:
+    - libblas * *openblas  # [osx]
+    - openblas  # [osx]
     - python
     - future
     - ipython
