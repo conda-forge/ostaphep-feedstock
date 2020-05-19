@@ -39,7 +39,7 @@ requirements:
     - multiprocess
     - ppft
     - libdb
-    - bdsdb3
+    - bsddb3
     - terminaltables
 test:
   imports:
