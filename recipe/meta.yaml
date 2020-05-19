@@ -1,19 +1,19 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.4.2.0" %}
-{% set hash = "ca1d18db3dcf8bae315576082cc0e875aeb6bda4b19235ae05aafe26fe4d4f7a" %}
+{% set version = "1.4.8.1" %}
+{% set hash = "b0241c9efe2a1c03356fe5226b85691734200d59d9ee35423b3b430207a1a50d" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/OstapHEP/ostap/archive/{{ version }}.tar.gz
+  url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
   sha256: {{ hash }}
   folder: ostap
 
 build:
-  number: 0
-  skip: True  # [not linux]  
+  number: 2
+  skip: true  # [not linux]
 
 requirements:
   build:
@@ -22,45 +22,55 @@ requirements:
     - cmake
     - make
   host:
-    - root >=6.16.0
+    - root_base
+    - root-binaries
+    - root-dependencies
     - python
-    - ipython
     - gsl
   run:
-    - python 
-    - root 
+    - python
     - future
     - ipython
-    - gsl
+    - configparser  # [py2k]
+    - scipy
+    - numpy
+    - pathos
+    - dill
+    - multiprocess
+    - ppft
+    - terminaltables
 test:
   imports:
     - ostap
     - ostap.core.core
+
 about:
   home: https://github.com/OstapHEP/ostap
-  license: BSD-3-Clause 
+  license: BSD-3-Clause
   license_family: BSD
   license_file: ostap/LICENSE
   dev_url: https://github.com/OstapHEP/ostap
   summary: |
-       The Ostap project is a community-driven 
-       initiative aiming to provide more user friendly and more intuitive interface
-       to ROOT and PyROOT and extending the existing functionality.
+    The Ostap project is a community-driven
+    initiative aiming to provide more user friendly and more intuitive interface
+    to ROOT and PyROOT and extending the existing functionality.
   description: |
-      Nowadays ROOT and PyROOT are de-facto standard tools for performing physics analysis.
-      The Ostap project is a community-driven initiative aiming to provide more user friendly 
-      and more intuitive interface to ROOT and PyROOT and extending the existing functionality.
-      Project started in 2009 from the private collections of python functions
-      used in Kali - framework for calibration of LHCb electromagnetic calorimeter. 
-      A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiemnt.
-      Till Autumn 2016 the project was a part of LHCb software suit and with great success has been used 
-      for preparation of approximately 30 physics papers. A standalone, LHCb independent version, has appeared at start of 2017
-      Key features include:
-       * Very easy manipulations with ROOT and RooFit objects: histograms, trees, datasets, etc
-       * Very easy interface to RooFit machinery
-       * Extended set of models.PDFs for RooFit
-       * Powerful, pickle-based persistency for object
-       * Interactive ostap analysis environment
+    Nowadays ROOT and PyROOT are de-facto standard tools for performing physics analysis.
+    The Ostap project is a community-driven initiative aiming to provide more user friendly
+    and more intuitive interface to ROOT and PyROOT and extending the existing functionality.
+    Project started in 2009 from the private collections of python functions
+    used in Kali - framework for calibration of LHCb electromagnetic calorimeter.
+    A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiemnt.
+    Till Autumn 2016 the project was a part of LHCb software suit and with great success has been used
+    for preparation of approximately 30 physics papers. A standalone, LHCb independent version, has appeared at start of 2017
+    Key features include:
+     * Very easy manipulations with ROOT and RooFit objects: histograms, trees, datasets, etc
+     * Very easy interface to RooFit machinery
+     * Extended set of models.PDFs for RooFit
+     * Powerful, pickle-based persistency for object
+     * Interactive ostap analysis environment
+
 extra:
   recipe-maintainers:
     - TatianaOvsiannikova
+    - VanyaBelyaev
