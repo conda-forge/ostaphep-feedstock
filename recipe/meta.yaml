@@ -1,6 +1,6 @@
 {% set name = "OstapHEP" %}
 {% set version = "1.4.8.7" %}
-{% set hash = "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed" %}
+{% set hash = "10290b0c36f0435147434a3722edebda89ec9f12863a8b20ef82ddf11e4da903" %}
 
 package:
   name: {{ name|lower }}
