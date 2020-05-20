@@ -1,6 +1,6 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.4.8.1" %}
-{% set hash = "b0241c9efe2a1c03356fe5226b85691734200d59d9ee35423b3b430207a1a50d" %}
+{% set version = "1.4.8.7" %}
+{% set hash = "10290b0c36f0435147434a3722edebda89ec9f12863a8b20ef82ddf11e4da903" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   folder: ostap
 
 build:
-  number: 2
+  number: 0
   skip: true  # [not linux]
 
 requirements:
@@ -38,6 +38,8 @@ requirements:
     - dill
     - multiprocess
     - ppft
+    - libdb
+    - bsddb3
     - terminaltables
 test:
   imports:
