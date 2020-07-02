@@ -1,5 +1,6 @@
 {% set name = "OstapHEP" %}
 {% set version = "1.4.9.1" %}
+{% set root_version = "6.22" %}
 {% set hash = "8cc2778a6172c2a024e8d523e0f9f17e8a08d54fd0d5e9baecb5f27778c3b7fd" %}
 
 package:
@@ -12,7 +13,7 @@ source:
   folder: ostap
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
 
 requirements:
@@ -22,9 +23,9 @@ requirements:
     - cmake
     - make
   host:
-    - root_base
-    - root-binaries
-    - root-dependencies
+    - root_base <{{ root_version }}
+    - root-binaries <{{ root_version }}
+    - root-dependencies <{{ root_version }}
     - python
     - gsl
   run:
