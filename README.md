@@ -5,12 +5,14 @@ Home: https://github.com/OstapHEP/ostap
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ostaphep-feedstock/blob/master/LICENSE.txt)
 
 Summary: The Ostap project is a community-driven
 initiative aiming to provide more user friendly and more intuitive interface
 to ROOT and PyROOT and extending the existing functionality.
 
+
+Development: https://github.com/OstapHEP/ostap
 
 Nowadays ROOT and PyROOT are de-facto standard tools for performing physics analysis.
 The Ostap project is a community-driven initiative aiming to provide more user friendly
@@ -64,6 +66,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
