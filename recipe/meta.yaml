@@ -9,6 +9,8 @@ source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
   sha256: e2c4927c82ad1451c3c94a4892ff96060814650aa9f6138dc62cbf652426130b
   folder: ostap
+  patches:
+    - 0001-Add-missing-include.patch
 
 build:
   number: 0
