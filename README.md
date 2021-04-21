@@ -5,19 +5,21 @@ Home: https://github.com/OstapHEP/ostap
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ostaphep-feedstock/blob/master/LICENSE.txt)
 
 Summary: The Ostap project is a community-driven
 initiative aiming to provide more user friendly and more intuitive interface
 to ROOT and PyROOT and extending the existing functionality.
 
 
+Development: https://github.com/OstapHEP/ostap
+
 Nowadays ROOT and PyROOT are de-facto standard tools for performing physics analysis.
 The Ostap project is a community-driven initiative aiming to provide more user friendly
 and more intuitive interface to ROOT and PyROOT and extending the existing functionality.
 Project started in 2009 from the private collections of python functions
 used in Kali - framework for calibration of LHCb electromagnetic calorimeter.
-A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiemnt.
+A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiment.
 Till Autumn 2016 the project was a part of LHCb software suit and with great success has been used
 for preparation of approximately 30 physics papers. A standalone, LHCb independent version, has appeared at start of 2017
 Key features include:
@@ -66,6 +68,13 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
+            </tr><tr>
+              <td>linux_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpython" alt="variant">
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -88,6 +97,7 @@ Installing `ostaphep` from the `conda-forge` channel can be achieved by adding `
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `ostaphep` can be installed with:
@@ -158,9 +168,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
