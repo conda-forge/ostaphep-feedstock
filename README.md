@@ -19,7 +19,7 @@ The Ostap project is a community-driven initiative aiming to provide more user f
 and more intuitive interface to ROOT and PyROOT and extending the existing functionality.
 Project started in 2009 from the private collections of python functions
 used in Kali - framework for calibration of LHCb electromagnetic calorimeter.
-A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiemnt.
+A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiment.
 Till Autumn 2016 the project was a part of LHCb software suit and with great success has been used
 for preparation of approximately 30 physics papers. A standalone, LHCb independent version, has appeared at start of 2017
 Key features include:
@@ -66,6 +66,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
