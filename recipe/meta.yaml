@@ -1,5 +1,5 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.6.1.0" %}
+{% set version = "1.6.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: e2c4927c82ad1451c3c94a4892ff96060814650aa9f6138dc62cbf652426130b
+  sha256: 2ca49191bf660792a67c47cd0e4f161f22f86ef07e7fe7e90d9fdfcac0d2a093
   folder: ostap
   patches:
     - 0001-Add-missing-include.patch
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or osx]
 
 requirements:
