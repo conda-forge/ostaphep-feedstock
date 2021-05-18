@@ -1,7 +1,5 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.4.9.1" %}
-{% set root_version = "6.22" %}
-{% set hash = "8cc2778a6172c2a024e8d523e0f9f17e8a08d54fd0d5e9baecb5f27778c3b7fd" %}
+{% set version = "1.6.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -9,12 +7,14 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: {{ hash }}
+  sha256: e2c4927c82ad1451c3c94a4892ff96060814650aa9f6138dc62cbf652426130b
   folder: ostap
+  patches:
+    - 0001-Add-missing-include.patch
 
 build:
   number: 1
-  skip: true  # [not linux]
+  skip: true  # [win or osx]
 
 requirements:
   build:
@@ -23,22 +23,26 @@ requirements:
     - cmake
     - make
   host:
-    - root_base <{{ root_version }}
-    - root-binaries <{{ root_version }}
-    - root-dependencies <{{ root_version }}
+    - root_base
     - python
     - gsl
+    - scipy
+    - more-itertools
+    - psutil
+    - bsddb3
+    - terminaltables
   run:
     - python
     - future
     - ipython
-    - configparser  # [py2k]
     - scipy
     - numpy
     - pathos
     - dill
     - multiprocess
+    - more-itertools
     - ppft
+    - psutil
     - libdb
     - bsddb3
     - terminaltables
@@ -50,7 +54,6 @@ test:
 about:
   home: https://github.com/OstapHEP/ostap
   license: BSD-3-Clause
-  license_family: BSD
   license_file: ostap/LICENSE
   dev_url: https://github.com/OstapHEP/ostap
   summary: |
@@ -63,7 +66,7 @@ about:
     and more intuitive interface to ROOT and PyROOT and extending the existing functionality.
     Project started in 2009 from the private collections of python functions
     used in Kali - framework for calibration of LHCb electromagnetic calorimeter.
-    A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiemnt.
+    A lot of functionality is picked from Bender project - python based physics analysis environment used in LHCb experiment.
     Till Autumn 2016 the project was a part of LHCb software suit and with great success has been used
     for preparation of approximately 30 physics papers. A standalone, LHCb independent version, has appeared at start of 2017
     Key features include:
