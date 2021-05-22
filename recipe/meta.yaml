@@ -9,11 +9,11 @@ source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
   sha256: 2ca49191bf660792a67c47cd0e4f161f22f86ef07e7fe7e90d9fdfcac0d2a093
   folder: ostap
-  #patches:
-   # - 0001-Add-missing-include.patch
+  patches:
+    - 0001-fix-executables-path.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or osx]
 
 requirements:
