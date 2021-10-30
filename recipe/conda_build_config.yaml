@@ -8,3 +8,5 @@ MACOSX_SDK_VERSION:        # [osx and x86_64]
   - 10.14                  # [osx and x86_64]
 gsl:
 - '2.7'
+docker_image:
+ - quay.io/condaforge/linux-anvil-comp7
