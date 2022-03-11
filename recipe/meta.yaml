@@ -1,5 +1,6 @@
 {% set name = "OstapHEP" %}
 {% set version = "1.7.0.4" %}
+{% set root_version = "6.24.6" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -22,7 +23,7 @@ requirements:
     - cmake
     - make
   host:
-    - root_base 
+    - root_base <{{ root_version }}
     - python
     - gsl
     - scipy
