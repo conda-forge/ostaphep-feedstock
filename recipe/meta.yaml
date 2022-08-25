@@ -23,7 +23,7 @@ requirements:
     - cmake
     - make
   host:
-    - root_base <{{ root_version }}
+    - root_base 
     - python
     - gsl
     - scipy
