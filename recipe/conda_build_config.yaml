@@ -6,3 +6,7 @@ c_compiler_version:        # [linux]
   - '10.3.0'                 # [linux]
 cxx_compiler_version:      # [linux]
   - '10.3.0'                 # [linux]
+cdt_name:
+  - cos7
+root_base:
+  - 6.26.6
