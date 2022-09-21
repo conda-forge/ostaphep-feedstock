@@ -1,12 +1,12 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.9.3.2" %}
+{% set version = "1.9.3.4" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: 5a6caa08c98b267fa5eb91fcc2743084451072203a8d0881b523f53aeee9a304
+  sha256: c2b7dfbc2c9efddf0c75f11fb10e7989bbf2897add4ff6bfe763197f871ad7fa
   folder: ostap
   patches:
     - 0001-fix-executables-path.patch
