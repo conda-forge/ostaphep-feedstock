@@ -1,11 +1,11 @@
-About ostaphep
-==============
+About ostaphep-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ostaphep-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/OstapHEP/ostap
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ostaphep-feedstock/blob/main/LICENSE.txt)
 
 Summary: The Ostap project is a community-driven
 initiative aiming to provide more user friendly and more intuitive interface
