@@ -12,7 +12,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or osx]
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - sysroot_linux-64 2.17 # [linux]
+    - sysroot_linux-64 2.17  # [linux]
   host:
     - root_base
     - python
@@ -31,7 +31,7 @@ requirements:
     - psutil
     - bsddb3
     - terminaltables
-    - sysroot_linux-64 2.17 # [linux]
+    - sysroot_linux-64 2.17  # [linux]
   run:
     - python
     - future
