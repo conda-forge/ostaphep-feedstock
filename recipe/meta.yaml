@@ -1,27 +1,27 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.10.1.4" %}
+{% set version = "1.10.1.6" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: 846c0d722d080a70f07ef496581be4553ffd37b560ff1a6bf318d560facdb5b1
+  sha256: 0d373c0e4259f20af861b8e1aa2fcb8886f071e67884287c40555febc6b749e4
   folder: ostap
   patches:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or osx]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - sysroot_linux-64 2.17  # [linux]
   host:
     - root_base
     - python
@@ -31,7 +31,6 @@ requirements:
     - psutil
     - bsddb3
     - terminaltables
-    - sysroot_linux-64 2.17  # [linux]
   run:
     - python
     - future
