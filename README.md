@@ -48,13 +48,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.10.____cpythonroot_base6.28.12</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonroot_base6.28.12" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_python3.10.____cpythonroot_base6.30.4</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
@@ -62,10 +55,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.11.____cpythonroot_base6.28.12</td>
+              <td>linux_64_python3.10.____cpythonroot_base6.32.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonroot_base6.28.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.10.____cpythonroot_base6.32.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -76,10 +69,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.8.____cpythonroot_base6.28.12</td>
+              <td>linux_64_python3.11.____cpythonroot_base6.32.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonroot_base6.28.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.11.____cpythonroot_base6.32.0" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.12.____cpythonroot_base6.30.4</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonroot_base6.30.4" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.12.____cpythonroot_base6.32.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.12.____cpythonroot_base6.32.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -90,10 +97,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpythonroot_base6.28.12</td>
+              <td>linux_64_python3.8.____cpythonroot_base6.32.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonroot_base6.28.12" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpythonroot_base6.32.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -101,6 +108,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonroot_base6.30.4" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_python3.9.____cpythonroot_base6.32.0</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____cpythonroot_base6.32.0" alt="variant">
                 </a>
               </td>
             </tr>
