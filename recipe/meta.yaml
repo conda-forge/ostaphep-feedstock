@@ -1,19 +1,19 @@
 {% set name = "OstapHEP" %}
-{% set version = "1.10.1.6" %}
+{% set version = "1.10.1.8" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: 0d373c0e4259f20af861b8e1aa2fcb8886f071e67884287c40555febc6b749e4
+  sha256: 4f4a7628e6244f8fd7fdbae71983c38ef933a8cd9a0f91dcfa3991a74fefe6c2
   folder: ostap
   patches:
     - 0001-fix-executables-path.patch
 
 build:
   number: 0
-  skip: true  # [win or osx]
+  skip: true  # [win or osx or py==312]
 
 requirements:
   build:
@@ -28,8 +28,8 @@ requirements:
     - gsl
     - scipy
     - more-itertools
-    - psutil
-    - bsddb3
+    - psutil  # [py<312]
+    - bsddb3  # [py<312]
     - terminaltables
   run:
     - python
@@ -42,9 +42,9 @@ requirements:
     - multiprocess
     - more-itertools
     - ppft
-    - psutil
+    - psutil  # [py<312]
     - libdb
-    - bsddb3
+    - bsddb3  # [py<312]
     - terminaltables
 test:
   imports:
