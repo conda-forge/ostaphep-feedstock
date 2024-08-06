@@ -29,7 +29,7 @@ requirements:
     - scipy
     - more-itertools
     - psutil
-    - bsddb3
+    - bsddb3 #[py<312]
     - terminaltables
   run:
     - python
@@ -44,7 +44,7 @@ requirements:
     - ppft
     - psutil
     - libdb
-    - bsddb3
+    - bsddb3 #[py<312]
     - terminaltables
 test:
   imports:
