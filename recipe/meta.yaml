@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [win or osx or py312]
+  skip: true  # [win or osx or py==312]
 
 requirements:
   build:
@@ -28,8 +28,8 @@ requirements:
     - gsl
     - scipy
     - more-itertools
-    - psutil  #[py<312]
-    - bsddb3 #[py<312]
+    - psutil  # [py<312]
+    - bsddb3  # [py<312]
     - terminaltables
   run:
     - python
@@ -42,9 +42,9 @@ requirements:
     - multiprocess
     - more-itertools
     - ppft
-    - psutil  #[py<312]
+    - psutil  # [py<312]
     - libdb
-    - bsddb3 #[py<312]
+    - bsddb3  # [py<312]
     - terminaltables
 test:
   imports:
