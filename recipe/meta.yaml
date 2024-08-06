@@ -28,7 +28,7 @@ requirements:
     - gsl
     - scipy
     - more-itertools
-    - psutil
+    - psutil  #[py<312]
     - bsddb3 #[py<312]
     - terminaltables
   run:
@@ -42,7 +42,7 @@ requirements:
     - multiprocess
     - more-itertools
     - ppft
-    - psutil
+    - psutil  #[py<312]
     - libdb
     - bsddb3 #[py<312]
     - terminaltables
