@@ -8,8 +8,6 @@ cxx_compiler_version:      # [linux]
   - '10.3.0'               # [linux]
 cdt_name:
   - cos7
-root_base:
-  - 6.26.6
 cudnn:                                            # [linux64]
   - undefined                                     # [linux64]
 cuda_compiler_version:                            # [linux64]
