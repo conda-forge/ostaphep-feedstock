@@ -42,9 +42,9 @@ requirements:
     - multiprocess
     - more-itertools
     - ppft
-    - psutil  # [py<312]
+    - psutil  
     - libdb
-    - bsddb3  # [py<312]
+    - bsddb3  # [py<310]
     - terminaltables
 test:
   imports:
