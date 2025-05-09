@@ -28,8 +28,8 @@ requirements:
     - gsl
     - scipy
     - more-itertools
-    - psutil  # [py<312]
-    - bsddb3  # [py<312]
+    - psutil  # [py>=308]
+    - bsddb3  # [py<310]
     - terminaltables
   run:
     - python
