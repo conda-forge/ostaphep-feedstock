@@ -40,14 +40,6 @@ jobs:
         CONFIG: linux_64_python3.13.____cp313root_base6.34.4
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_python3.14.____cp314root_base6.32.10:
-        CONFIG: linux_64_python3.14.____cp314root_base6.32.10
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_python3.14.____cp314root_base6.34.4:
-        CONFIG: linux_64_python3.14.____cp314root_base6.34.4
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
   timeoutInMinutes: 360
   variables: {}
 

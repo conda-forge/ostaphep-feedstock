@@ -103,20 +103,6 @@ Current build status
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313root_base6.34.4" alt="variant">
                 </a>
               </td>
-            </tr><tr>
-              <td>linux_64_python3.14.____cp314root_base6.32.10</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314root_base6.32.10" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.14.____cp314root_base6.34.4</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6662&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ostaphep-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.14.____cp314root_base6.34.4" alt="variant">
-                </a>
-              </td>
             </tr>
           </tbody>
         </table>
