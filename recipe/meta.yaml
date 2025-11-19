@@ -45,7 +45,7 @@ requirements:
     - multiprocess
     - ppft 
     - joblib
-    - ipyprallel
+    - ipyparallel
     - zstandard 
     - more-itertools
     - sortedcontainers 
