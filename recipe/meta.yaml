@@ -22,8 +22,8 @@ requirements:
     - make
     - ninja 
   host:
-    - root_base
-    - python
+    - root_base  >=6.28.00
+    - python     >=3.8.0 
     - gsl
     - scipy
     - more-itertools
@@ -35,23 +35,25 @@ requirements:
     - future
     - ipython
     - root 
+    - gsl 
     - scipy
     - numpy
     - numba 
+    - cffi 
     - pathos
     - dill
     - multiprocess
     - ppft 
     - joblib
+    - ipyprallel
     - zstandard 
     - more-itertools
-    - sortedcontainers
-    - ipyparallel 
+    - sortedcontainers 
     - psutil
-    - libdb
     - bsddb3  # [py<310]
     - tabulate 
     - terminaltables
+    - libdb 
 test:
   imports:
     - ostap
