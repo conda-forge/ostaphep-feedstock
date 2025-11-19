@@ -20,6 +20,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
+    - ninja 
   host:
     - root_base
     - python
@@ -33,16 +34,23 @@ requirements:
     - python
     - future
     - ipython
+    - root 
     - scipy
     - numpy
+    - numba 
     - pathos
     - dill
     - multiprocess
+    - ppft 
+    - joblib
+    - zstandard 
     - more-itertools
-    - ppft
+    - sortedcontainers
+    - ipyparallel 
     - psutil
     - libdb
     - bsddb3  # [py<310]
+    - tabulate 
     - terminaltables
 test:
   imports:
