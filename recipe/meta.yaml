@@ -36,6 +36,7 @@ requirements:
     - ipython
     - root 
     - gsl 
+    - openblas
     - scipy
     - numpy
     - numba 
