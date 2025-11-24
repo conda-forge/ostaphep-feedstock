@@ -1,16 +1,16 @@
 {% set name = "OstapHEP" %}
-{% set version = "3.5.1.0" %}
+{% set version = "3.5.2.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: 5cafacd39b53f333d870adedabcb29c84f378b70686b8cdd812319ae28520d64
+  sha256: 5ae10d1ca64fe3a6e5a9b3d56ab52c6952bfef437e784c82e321b3fc80ac82bf
   folder: ostap
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or osx]
 
 requirements:
@@ -20,10 +20,10 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - ninja 
+    - ninja
   host:
     - root_base  >=6.28.00
-    - python     >=3.8.0 
+    - python     >=3.8.0
     - gsl
     - scipy
     - more-itertools
@@ -34,27 +34,27 @@ requirements:
     - python
     - future
     - ipython
-    - root 
-    - gsl 
+    - root
+    - gsl
     - openblas
     - scipy
     - numpy
-    - numba 
-    - cffi 
+    - numba
+    - cffi
     - pathos
     - dill
     - multiprocess
-    - ppft 
+    - ppft
     - joblib
     - ipyparallel
-    - zstandard 
+    - zstandard
     - more-itertools
-    - sortedcontainers 
+    - sortedcontainers
     - psutil
     - bsddb3  # [py<310]
-    - tabulate 
+    - tabulate
     - terminaltables
-    - libdb 
+    - libdb
 test:
   imports:
     - ostap
