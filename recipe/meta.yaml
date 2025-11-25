@@ -1,12 +1,12 @@
 {% set name = "OstapHEP" %}
-{% set version = "3.5.2.1" %}
+{% set version = "3.5.2.3" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: c9e02bc7354a65ff107612fef0e5b96b4397060d971801f9b7f972cc87d5690b
+  sha256: 580a35527ad154d48e5df1a93382903854a8b967c8d6fb008dff2f55d2216b12
   folder: ostap
 
 build:
@@ -32,7 +32,7 @@ requirements:
     - future
     - ipython
     - root
-    - fftw 
+    - fftw
     - gsl
     - openblas
     - scipy
@@ -60,7 +60,7 @@ test:
   imports:
     - ostap
     - ostap.core.core
-    - ostap.core.pyrouts 
+    - ostap.core.pyrouts
 
 about:
   home: https://github.com/OstapHEP/ostap
