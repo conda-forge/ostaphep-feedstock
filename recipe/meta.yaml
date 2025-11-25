@@ -21,11 +21,9 @@ requirements:
     - cmake
     - make
     - ninja
-    - root_base  
     - python     >=3.8.0
-    - gsl 
   host:
-    - root_base  
+    - root_base  >=6.28.00
     - python    
     - gsl
     - scipy
@@ -40,6 +38,8 @@ requirements:
     - fftw 
     - gsl
     - openblas
+    - blas 
+    - cblas 
     - scipy
     - numpy
     - numba
