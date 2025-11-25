@@ -21,7 +21,7 @@ requirements:
     - cmake
     - make
     - ninja
-    - root_base  >=6.30.00
+    - root_base  
     - python     >=3.8.0
     - gsl 
   host:
@@ -58,10 +58,12 @@ requirements:
     - tabulate
     - terminaltables
     - libdb
+    - parallel 
 test:
   imports:
     - ostap
     - ostap.core.core
+    - ostap.core.pyrouts 
 
 about:
   home: https://github.com/OstapHEP/ostap
