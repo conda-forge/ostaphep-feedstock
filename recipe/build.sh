@@ -9,8 +9,11 @@ cmake $CMAKE_ARGS \
     -DCMAKE_INSTALL_NAME_DIR="${PREFIX}/lib" \
     ../ostap
 
-make -j${CPU_COUNT}
-make install
+ninja -j${CPU_COUNT}
+ninja -j${CPU_COUNT}
+ninja install
+ninja -j${CPU_COUNT}
+ninja install
 
 if [ -e "${PREFIX}"/./thisostap.sh ]; then
     rm "${PREFIX}"/./thisostap.*
