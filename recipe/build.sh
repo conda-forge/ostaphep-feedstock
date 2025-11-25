@@ -7,6 +7,7 @@ cmake $CMAKE_ARGS \
     -DPython3_EXECUTABLE=$PYTHON \
     -DCMAKE_INSTALL_PREFIX="${PREFIX}" \
     -DCMAKE_INSTALL_NAME_DIR="${PREFIX}/lib" \
+    -G Ninja \
     ../ostap
 
 ninja -j${CPU_COUNT}
