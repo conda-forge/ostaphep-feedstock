@@ -21,7 +21,7 @@ requirements:
     - cmake
     - make
     - ninja
-    - root_base  >=6.28.00
+    - root_base  >=6.30.00
     - python     >=3.8.0
     - gsl 
   host:
