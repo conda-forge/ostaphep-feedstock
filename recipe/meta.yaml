@@ -10,7 +10,7 @@ source:
   folder: ostap
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win or osx]
 
 requirements:
@@ -21,15 +21,12 @@ requirements:
     - cmake
     - make
     - ninja
-    - python     >=3.8.0
   host:
     - root_base  >=6.28.00
-    - python    
+    - python     >=3.8.0
     - gsl
     - scipy
-    - psutil  # [py>=308]
-    - bsddb3  # [py<310]
-    - terminaltables
+    - numpy
   run:
     - python
     - future
@@ -51,7 +48,7 @@ requirements:
     - zstandard
     - more-itertools
     - sortedcontainers
-    - psutil
+    - psutil  # [py>=308]
     - bsddb3  # [py<310]
     - tabulate
     - terminaltables
