@@ -38,8 +38,6 @@ requirements:
     - fftw 
     - gsl
     - openblas
-    - blas 
-    - cblas 
     - scipy
     - numpy
     - numba
