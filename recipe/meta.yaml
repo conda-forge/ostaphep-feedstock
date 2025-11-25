@@ -10,7 +10,7 @@ source:
   folder: ostap
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win or osx]
 
 requirements:
@@ -53,7 +53,9 @@ requirements:
     - tabulate
     - terminaltables
     - libdb
-    - parallel 
+    - parallel
+    - cxx-compiler
+    - c-compiler
 test:
   imports:
     - ostap
