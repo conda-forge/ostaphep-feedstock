@@ -25,9 +25,6 @@ requirements:
     - root_base  >=6.28.00
     - python     >=3.8.0
   host:
-    - {{ compiler('c') }}
-    - {{ stdlib("c") }}
-    - {{ compiler('cxx') }}
     - root_base  
     - python    
     - gsl
