@@ -1,12 +1,12 @@
 {% set name = "OstapHEP" %}
-{% set version = "3.5.2.3" %}
+{% set version = "3.5.2.4" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: 580a35527ad154d48e5df1a93382903854a8b967c8d6fb008dff2f55d2216b12
+  sha256: f1c91e66b870f414d952e448dc8471293613b6bd1ac14a006c2fe4230fffbaaa
   folder: ostap
 
 build:
@@ -21,7 +21,7 @@ requirements:
     - cmake
     - make
     - ninja
-    - pip 
+    - pip
   host:
     - root_base  >=6.28.00
     - python     >=3.8.0
