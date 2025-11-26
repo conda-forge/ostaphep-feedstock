@@ -22,11 +22,9 @@ requirements:
     - make
     - ninja
     - pip 
+  host:   
     - root_base  >=6.28.00
     - python     >=3.8.0
-  host:
-    - root_base  
-    - python    
     - gsl
     - scipy
     - numpy
