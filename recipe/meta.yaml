@@ -59,8 +59,6 @@ requirements:
     - parallel
     - cxx-compiler
     - c-compiler
-    - rocksdb      
-    - python-rocksdb # [py<313]
 test:
   imports:
     - ostap
