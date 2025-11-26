@@ -10,7 +10,7 @@ source:
   folder: ostap
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win or osx]
 
 requirements:
@@ -23,12 +23,18 @@ requirements:
     - ninja
     - pip
   host:
+    - {{ compiler('c') }}
+    - {{ stdlib("c") }}
+    - {{ compiler('cxx') }}
     - root_base  >=6.28.00
     - python     >=3.8.0
     - gsl
     - scipy
     - numpy
   run:
+    - {{ compiler('c') }}
+    - {{ stdlib("c") }}
+    - {{ compiler('cxx') }}
     - python
     - future
     - ipython
