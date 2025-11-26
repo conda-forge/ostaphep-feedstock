@@ -28,6 +28,7 @@ requirements:
     - gsl
     - scipy
     - numpy
+    - pip
   run:
     - python
     - future
@@ -57,6 +58,8 @@ requirements:
     - parallel
     - cxx-compiler
     - c-compiler
+    - rocksdb
+    - python-rocksdb 
 test:
   imports:
     - ostap
