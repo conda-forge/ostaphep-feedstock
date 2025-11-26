@@ -34,9 +34,6 @@ requirements:
     - scipy
     - numpy
   run:
-    - {{ compiler('c') }}
-    - {{ stdlib("c") }}
-    - {{ compiler('cxx') }}
     - python
     - future
     - ipython
