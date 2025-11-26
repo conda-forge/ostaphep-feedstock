@@ -28,8 +28,8 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
-    - root_base  >=6.28.00
-    - python     >=3.8.0
+    - root_base  
+    - python    
     - gsl
     - scipy
     - numpy
