@@ -21,6 +21,7 @@ requirements:
     - cmake
     - make
     - ninja
+    - pip 
   host:
     - root_base  >=6.28.00
     - python     >=3.8.0
