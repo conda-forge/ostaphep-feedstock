@@ -1,16 +1,16 @@
 {% set name = "OstapHEP" %}
-{% set version = "3.6.0.0" %}
+{% set version = "3.6.1.0" %}
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v{{ version }}.tar.gz
-  sha256: d384117159654e9d33d75fa34d3116cdf2eb6b817c7349c108c0359c2cdf6f43
+  sha256: c695dcf87a2995c61f109df43bd3e5fa0d30e24c405d565404ec8043656c6f12
   folder: ostap
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win or osx]
 
 requirements:
