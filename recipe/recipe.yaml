@@ -14,6 +14,7 @@ source:
   target_directory: ostap
   patches:
     - 0001-fix-executables-path.patch
+    - 0002-fix-portability-for-non-glibc.patch
 
 build:
   number: 0

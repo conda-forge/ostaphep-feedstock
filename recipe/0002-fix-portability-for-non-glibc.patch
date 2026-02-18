@@ -1,0 +1,67 @@
+diff --git a/source/include/Ostap/Math.h b/source/include/Ostap/Math.h
+index 69395b3..3944e45 100755
+--- a/source/include/Ostap/Math.h
++++ b/source/include/Ostap/Math.h
+@@ -7,6 +7,9 @@
+ // STD & STL 
+ // ============================================================================
+ #include <cmath>
++#ifndef M_PIl
++#define M_PIl 3.141592653589793238462643383279502884L
++#endif
+ #include <complex>
+ #include <algorithm>
+ #include <functional>
+@@ -616,7 +619,7 @@ namespace Ostap
+       {
+         return 
+           v.empty() || v.end() == std::find_if 
+-          ( v.begin() , v.end() , std::not1 ( m_cmp ) ) ;
++          ( v.begin() , v.end() , std::not_fn( m_cmp ) ) ;
+       }
+       // ======================================================================
+     private :
+diff --git a/source/src/MoreMath.cpp b/source/src/MoreMath.cpp
+index 5df75b1..e5cd959 100644
+--- a/source/src/MoreMath.cpp
++++ b/source/src/MoreMath.cpp
+@@ -993,7 +993,11 @@ double Ostap::Math::beta
+   //
+   //
+   // use STD
++#if __cpp_lib_math_special_functions >= 201603L
+   return std::beta ( x , y ) ;
++#else
++  return std::exp( std::lgamma( x ) + std::lgamma( y ) - std::lgamma( x + y ) ) ;
++#endif
+   // 
+   // // use GSL: 
+   // Ostap::Math::GSL::GSL_Error_Handler sentry ( false )  ;
+diff --git a/source/src/Peaks.cpp b/source/src/Peaks.cpp
+index 582e6b9..47c82c3 100644
+--- a/source/src/Peaks.cpp
++++ b/source/src/Peaks.cpp
+@@ -4549,9 +4549,9 @@ bool Ostap::Math::PearsonIV::setN ( const double value )
+   m_n = avalue ;
+   //
+   // m_C = std::norm ( Ostap::Math::gamma ( std::complex<double> ( m() , 0.5 * nu () ) ) /
+-  //                   Ostap::Math::gamma ( m() ) ) / std::beta  ( m() - 0.5 , 0.5 ) ;
++  //                   Ostap::Math::gamma ( m() ) ) / Ostap::Math::beta ( m() - 0.5 , 0.5 ) ;
+   //
+-  m_C = Ostap::Math::pearsonIV_g2 ( m() , 0.5 * nu() ) / std::beta  ( m() - 0.5 , 0.5 ) ;
++  m_C = Ostap::Math::pearsonIV_g2 ( m() , 0.5 * nu() ) / Ostap::Math::beta ( m() - 0.5 , 0.5 ) ;
+   //
+   return true ;
+ }   
+@@ -4564,9 +4564,9 @@ bool Ostap::Math::PearsonIV::setKappa ( const double value )
+   m_kappa = value ;
+   //
+   // m_C     = std::norm ( Ostap::Math::gamma ( std::complex<double> ( m() , 0.5 * nu () ) ) /
+-  //                       Ostap::Math::gamma ( m() ) ) / std::beta  ( m() - 0.5 , 0.5 ) ;
++  //                       Ostap::Math::gamma ( m() ) ) / Ostap::Math::beta ( m() - 0.5 , 0.5 ) ;
+   //
+-  m_C = Ostap::Math::pearsonIV_g2 ( m() , 0.5 * nu() ) / std::beta  ( m() - 0.5 , 0.5 ) ;
++  m_C = Ostap::Math::pearsonIV_g2 ( m() , 0.5 * nu() ) / Ostap::Math::beta ( m() - 0.5 , 0.5 ) ;
+   //
+   return true ;
+ }  
