@@ -1,21 +1,13 @@
 #!/bin/bash
 
-mkdir -p build-dir
-cd build-dir
-
-cmake $CMAKE_ARGS \
-    -DPython3_EXECUTABLE=$PYTHON \
-    -DCMAKE_INSTALL_PREFIX="${PREFIX}" \
-    -DCMAKE_INSTALL_NAME_DIR="${PREFIX}/lib" \
+cmake ${CMAKE_ARGS} \
+    -DPython3_EXECUTABLE=${PYTHON} \
     -G Ninja \
-    ../ostap
+    -S ostap \
+    -B build-dir
 
-ninja -j${CPU_COUNT}
-ninja -j${CPU_COUNT}
-ninja install
-
-ninja -j${CPU_COUNT}
-ninja install
+cmake --build build-dir -j${CPU_COUNT}
+cmake --install build-dir
 
 if [ -e "${PREFIX}"/./thisostap.sh ]; then
     rm "${PREFIX}"/./thisostap.*

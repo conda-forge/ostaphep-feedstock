@@ -25,9 +25,15 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.12.* *_cpython
+- 3.13.* *_cp313
+root_base:
+- 6.38.0
+root_cxx_standard:
+- '20'
 target_platform:
 - linux-64
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
+- - root_base
+  - root_cxx_standard
