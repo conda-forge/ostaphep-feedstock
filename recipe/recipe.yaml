@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: OstapHEP
-  version: "3.6.9.9.3"
+  version: "3.6.9.10"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/${{ version }}.tar.gz
-  sha256: 244b1ee4da13b81655fba925846fda3e6bba9572003e8dcac7c19a2b0f0be9e0
+  sha256: 2e8b2bbb3d209378e63484b7a37742834488958c8a538d88c2544f11c94ffe1b
   target_directory: ostap
   patches:
     - 0001-fix-executables-path.patch
