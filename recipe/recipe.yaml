@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 3
+  number: 4
   skip:
     - win
 
@@ -60,7 +60,9 @@ requirements:
     - terminaltables
     - libdb
     - parallel
-
+    - duckdb 
+    - fasteners
+    
 tests:
   - python:
       imports:
