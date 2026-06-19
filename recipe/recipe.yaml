@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: OstapHEP
-  version: "3.7.1.2"
+  version: "3.7.1.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,13 +10,13 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v${{ version }}.tar.gz
-  sha256: 5d1eb2daf93ae2bc1d70c1af6af044ec4a2cbd27affba866a975490034ebadb6
+  sha256: e647184e0fa1418b5d813b12d9e328c9d6f528fac5034b253e27e3d7576b613a
   target_directory: ostap
   patches:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 4
+  number: 0
   skip:
     - win
 
@@ -60,9 +60,9 @@ requirements:
     - terminaltables
     - libdb
     - parallel
-    - duckdb 
+    - duckdb
     - fasteners
-    
+
 tests:
   - python:
       imports:
