@@ -41,18 +41,18 @@ description = "Build ostaphep-feedstock with variant linux_64_python3.10.____cpy
 [tasks."inspect-linux_64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-linux_64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant linux_64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -71,18 +71,18 @@ description = "Build ostaphep-feedstock with variant linux_64_python3.11.____cpy
 [tasks."inspect-linux_64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-linux_64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant linux_64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -101,18 +101,18 @@ description = "Build ostaphep-feedstock with variant linux_64_python3.12.____cpy
 [tasks."inspect-linux_64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-linux_64_python3.13.____cp313root_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant linux_64_python3.13.____cp313root_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -131,18 +131,18 @@ description = "Build ostaphep-feedstock with variant linux_64_python3.13.____cp3
 [tasks."inspect-linux_64_python3.13.____cp313root_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.13.____cp313root_base6.38.4root_cxx_standard23"
-[tasks."build-linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard20"
-[tasks."build-linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.13.____cp313root_base6.40.0root_cxx_standard23"
+[tasks."build-linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard20"
+[tasks."build-linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.13.____cp313root_base6.40.2root_cxx_standard23"
 [tasks."build-linux_64_python3.14.____cp314root_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant linux_64_python3.14.____cp314root_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -161,18 +161,18 @@ description = "Build ostaphep-feedstock with variant linux_64_python3.14.____cp3
 [tasks."inspect-linux_64_python3.14.____cp314root_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.14.____cp314root_base6.38.4root_cxx_standard23"
-[tasks."build-linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard20"
-[tasks."build-linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.14.____cp314root_base6.40.0root_cxx_standard23"
+[tasks."build-linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard20"
+[tasks."build-linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant linux_64_python3.14.____cp314root_base6.40.2root_cxx_standard23"
 [tasks."build-osx_64_python3.10.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_64_python3.10.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -191,18 +191,18 @@ description = "Build ostaphep-feedstock with variant osx_64_python3.10.____cpyth
 [tasks."inspect-osx_64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-osx_64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -221,18 +221,18 @@ description = "Build ostaphep-feedstock with variant osx_64_python3.11.____cpyth
 [tasks."inspect-osx_64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-osx_64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -251,18 +251,18 @@ description = "Build ostaphep-feedstock with variant osx_64_python3.12.____cpyth
 [tasks."inspect-osx_64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-osx_64_python3.13.____cp313root_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_64_python3.13.____cp313root_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -281,18 +281,18 @@ description = "Build ostaphep-feedstock with variant osx_64_python3.13.____cp313
 [tasks."inspect-osx_64_python3.13.____cp313root_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.13.____cp313root_base6.38.4root_cxx_standard23"
-[tasks."build-osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard20"
-[tasks."build-osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.13.____cp313root_base6.40.0root_cxx_standard23"
+[tasks."build-osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard20"
+[tasks."build-osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.13.____cp313root_base6.40.2root_cxx_standard23"
 [tasks."build-osx_64_python3.14.____cp314root_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_64_python3.14.____cp314root_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -311,18 +311,18 @@ description = "Build ostaphep-feedstock with variant osx_64_python3.14.____cp314
 [tasks."inspect-osx_64_python3.14.____cp314root_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.14.____cp314root_base6.38.4root_cxx_standard23"
-[tasks."build-osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard20"
-[tasks."build-osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.14.____cp314root_base6.40.0root_cxx_standard23"
+[tasks."build-osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard20"
+[tasks."build-osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_64_python3.14.____cp314root_base6.40.2root_cxx_standard23"
 [tasks."build-osx_arm64_python3.10.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_arm64_python3.10.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -341,18 +341,18 @@ description = "Build ostaphep-feedstock with variant osx_arm64_python3.10.____cp
 [tasks."inspect-osx_arm64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.10.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.10.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.10.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-osx_arm64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_arm64_python3.11.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -371,18 +371,18 @@ description = "Build ostaphep-feedstock with variant osx_arm64_python3.11.____cp
 [tasks."inspect-osx_arm64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.11.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.11.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.11.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-osx_arm64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_arm64_python3.12.____cpythonroot_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -401,18 +401,18 @@ description = "Build ostaphep-feedstock with variant osx_arm64_python3.12.____cp
 [tasks."inspect-osx_arm64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.12.____cpythonroot_base6.38.4root_cxx_standard23"
-[tasks."build-osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard20"
-[tasks."build-osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.12.____cpythonroot_base6.40.0root_cxx_standard23"
+[tasks."build-osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard20"
+[tasks."build-osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.12.____cpythonroot_base6.40.2root_cxx_standard23"
 [tasks."build-osx_arm64_python3.13.____cp313root_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_arm64_python3.13.____cp313root_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -431,18 +431,18 @@ description = "Build ostaphep-feedstock with variant osx_arm64_python3.13.____cp
 [tasks."inspect-osx_arm64_python3.13.____cp313root_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.13.____cp313root_base6.38.4root_cxx_standard23"
-[tasks."build-osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard20"
-[tasks."build-osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.13.____cp313root_base6.40.0root_cxx_standard23"
+[tasks."build-osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard20"
+[tasks."build-osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.13.____cp313root_base6.40.2root_cxx_standard23"
 [tasks."build-osx_arm64_python3.14.____cp314root_base6.36.10root_cxx_standard20"]
 cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.36.10root_cxx_standard20.yaml"
 description = "Build ostaphep-feedstock with variant osx_arm64_python3.14.____cp314root_base6.36.10root_cxx_standard20 directly (without setup scripts)"
@@ -461,18 +461,18 @@ description = "Build ostaphep-feedstock with variant osx_arm64_python3.14.____cp
 [tasks."inspect-osx_arm64_python3.14.____cp314root_base6.38.4root_cxx_standard23"]
 cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.38.4root_cxx_standard23.yaml"
 description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.14.____cp314root_base6.38.4root_cxx_standard23"
-[tasks."build-osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard20"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard20.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard20 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard20"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard20.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard20"
-[tasks."build-osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard23"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard23.yaml"
-description = "Build ostaphep-feedstock with variant osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard23 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard23"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard23.yaml"
-description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.14.____cp314root_base6.40.0root_cxx_standard23"
+[tasks."build-osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard20"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard20.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard20 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard20"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard20.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard20"
+[tasks."build-osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard23"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard23.yaml"
+description = "Build ostaphep-feedstock with variant osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard23 directly (without setup scripts)"
+[tasks."inspect-osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard23"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard23.yaml"
+description = "List contents of ostaphep-feedstock packages built for variant osx_arm64_python3.14.____cp314root_base6.40.2root_cxx_standard23"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
