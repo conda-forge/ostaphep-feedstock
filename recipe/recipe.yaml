@@ -62,7 +62,9 @@ requirements:
     - parallel
     - duckdb
     - fasteners
-
+    - pandas 
+    - sweetviz 
+    
 tests:
   - python:
       imports:
