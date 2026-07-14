@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 8
+  number: 9
   skip:
     - win
 
@@ -37,6 +37,7 @@ requirements:
     - gsl
     - scipy
     - numpy
+    - numba
     - pip
   run:
     - python
@@ -45,6 +46,7 @@ requirements:
     - gsl
     - scipy
     - numpy
+    - numba 
     - cffi
     - pathos
     - dill
