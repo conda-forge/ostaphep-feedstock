@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 7
+  number: 8
   skip:
     - win
 
@@ -64,7 +64,7 @@ requirements:
     - duckdb
     - fasteners
     - pandas 
-    - xgboost  # [py>=312] 
+    - xgboost 
     - catboost 
     - lightgbm
     - sweetviz 
