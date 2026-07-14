@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 10
+  number: 11
   skip:
     - win
 
@@ -48,7 +48,7 @@ requirements:
     - ipyparallel
     - zstandard
     - more-itertools
-    - sorted-containers
+    - sortedcontainers
     - psutil 
     - tabulate
     - terminaltables
