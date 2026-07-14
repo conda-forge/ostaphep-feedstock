@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 11
+  number: 12
   skip:
     - win
 
@@ -60,7 +60,7 @@ requirements:
     - pandas 
     - xgboost 
     - catboost 
-    - ilghtgbm 
+    - lightgbm 
     - sweetviz 
     - hep_ml 
     
