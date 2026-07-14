@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 9
+  number: 10
   skip:
     - win
 
@@ -38,7 +38,32 @@ requirements:
     - scipy
     - numpy
     - numba
+    - cffi 
     - pip
+    - pathos 
+    - dill 
+    - multiprocess 
+    - ppft 
+    - joblib 
+    - ipyparallel
+    - zstandard
+    - more-itertools
+    - sorted-containers
+    - psutil 
+    - tabulate
+    - terminaltables
+    - pathvalidate 
+    - libdb 
+    - parallel 
+    - duckdb 
+    - fasteners 
+    - pandas 
+    - xgboost 
+    - catboost 
+    - ilghtgbm 
+    - sweetviz 
+    - hep_ml 
+    
   run:
     - python
     - ipython
