@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: OstapHEP
-  version: "3.7.1.4"
+  version: "3.7.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,13 +10,13 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v${{ version }}.tar.gz
-  sha256: e647184e0fa1418b5d813b12d9e328c9d6f528fac5034b253e27e3d7576b613a
+  sha256: ae5a54b860626f39d19e46d38597c3a22bb9eab595f37b3d108ac9f370073778
   target_directory: ostap
   patches:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 7
+  number: 0
   skip:
     - win
 
@@ -63,13 +63,13 @@ requirements:
     - parallel
     - duckdb
     - fasteners
-    - pandas 
+    - pandas
     - xgboost  # [py>=312] 
-    - catboost 
+    - catboost
     - lightgbm
-    - sweetviz 
-    - hep_ml 
-    
+    - sweetviz
+    - hep_ml
+
 tests:
   - python:
       imports:
