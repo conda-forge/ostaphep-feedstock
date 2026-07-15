@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 1
+  number: 2
   skip:
     - win
 
@@ -65,7 +65,7 @@ requirements:
     - lightgbm
     - sweetviz
     - hep_ml
-
+    - py-cpuinfo 
   run:
     - python
     - ipython
@@ -98,7 +98,8 @@ requirements:
     - lightgbm
     - sweetviz
     - hep_ml
-
+    - py-cpuinfo 
+    
 tests:
   - python:
       imports:
