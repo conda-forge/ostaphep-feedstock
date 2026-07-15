@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: OstapHEP
-  version: "3.7.1.4"
+  version: "3.7.3.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,13 +10,13 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v${{ version }}.tar.gz
-  sha256: e647184e0fa1418b5d813b12d9e328c9d6f528fac5034b253e27e3d7576b613a
+  sha256: 3346787979ad5829376a68bc02a38743e500ab781f758f51d418b12ccef4dd3c
   target_directory: ostap
   patches:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 12
+  number: 0
   skip:
     - win
 
@@ -38,32 +38,32 @@ requirements:
     - scipy
     - numpy
     - numba
-    - cffi 
+    - cffi
     - pip
-    - pathos 
-    - dill 
-    - multiprocess 
-    - ppft 
-    - joblib 
+    - pathos
+    - dill
+    - multiprocess
+    - ppft
+    - joblib
     - ipyparallel
     - zstandard
     - more-itertools
     - sortedcontainers
-    - psutil 
+    - psutil
     - tabulate
     - terminaltables
-    - pathvalidate 
-    - libdb 
-    - parallel 
-    - duckdb 
-    - fasteners 
-    - pandas 
-    - xgboost 
-    - catboost 
-    - lightgbm 
-    - sweetviz 
-    - hep_ml 
-    
+    - pathvalidate
+    - libdb
+    - parallel
+    - duckdb
+    - fasteners
+    - pandas
+    - xgboost
+    - catboost
+    - lightgbm
+    - sweetviz
+    - hep_ml
+
   run:
     - python
     - ipython
@@ -71,7 +71,7 @@ requirements:
     - gsl
     - scipy
     - numpy
-    - numba 
+    - numba
     - cffi
     - pathos
     - dill
@@ -90,13 +90,13 @@ requirements:
     - parallel
     - duckdb
     - fasteners
-    - pandas 
-    - xgboost 
-    - catboost 
+    - pandas
+    - xgboost
+    - catboost
     - lightgbm
-    - sweetviz 
-    - hep_ml 
-    
+    - sweetviz
+    - hep_ml
+
 tests:
   - python:
       imports:
