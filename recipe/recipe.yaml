@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 0
+  number: 1
   skip:
     - win
 
@@ -30,6 +30,8 @@ requirements:
     - ninja
     - pip
     - python
+    - setuptools 
+    - wheel 
   host:
     - root_base
     - root_cxx_standard
