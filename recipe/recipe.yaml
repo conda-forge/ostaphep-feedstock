@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 2
+  number: 3
   skip:
     - win
 
@@ -59,6 +59,7 @@ requirements:
     - parallel
     - duckdb
     - fasteners
+    - statsmodels
     - pandas
     - xgboost
     - catboost
@@ -92,6 +93,7 @@ requirements:
     - parallel
     - duckdb
     - fasteners
+    - statsmodels
     - pandas
     - xgboost
     - catboost
