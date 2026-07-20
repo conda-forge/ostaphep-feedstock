@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 3
+  number: 4
   skip:
     - win
 
@@ -55,6 +55,7 @@ requirements:
     - tabulate
     - terminaltables
     - pathvalidate
+    - packaging 
     - libdb
     - parallel
     - duckdb
@@ -89,6 +90,7 @@ requirements:
     - tabulate
     - terminaltables
     - pathvalidate
+    - packaging
     - libdb
     - parallel
     - duckdb
