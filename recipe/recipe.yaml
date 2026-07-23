@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 5
+  number: 6
   skip:
     - win
 
