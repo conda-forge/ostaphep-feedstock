@@ -16,7 +16,7 @@ source:
     - 0001-fix-executables-path.patch
 
 build:
-  number: 4
+  number: 5
   skip:
     - win
 
@@ -29,7 +29,6 @@ requirements:
     - make
     - ninja
     - pip
-    - python
     - setuptools 
     - wheel 
   host:
@@ -57,7 +56,6 @@ requirements:
     - pathvalidate
     - packaging 
     - libdb
-    - parallel
     - duckdb
     - fasteners
     - statsmodels
@@ -92,7 +90,6 @@ requirements:
     - pathvalidate
     - packaging
     - libdb
-    - parallel
     - duckdb
     - fasteners
     - statsmodels
@@ -103,6 +100,7 @@ requirements:
     - sweetviz
     - hep_ml
     - py-cpuinfo 
+    - parallel 
     
 tests:
   - python:
