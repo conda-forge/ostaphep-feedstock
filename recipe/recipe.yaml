@@ -12,11 +12,9 @@ source:
   url: https://github.com/OstapHEP/ostap/archive/v${{ version }}.tar.gz
   sha256: 5121f1c80abe3f7f9f6c5de7bd03038d8d723122a8544b6dd5a3359423418d02 
   target_directory: ostap
-  patches:
-    - 0001-fix-executables-path.patch
-
+ 
 build:
-  number: 0
+  number: 1
   skip:
     - win
 
