@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v${{ version }}.tar.gz
-  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  sha256: 4bd2ceeeff74b8f79defe7b8739919d7cadac541ccf2c0a816c35b0172e2198a 
   target_directory: ostap
  
 build:
