@@ -14,7 +14,7 @@ source:
   target_directory: ostap
  
 build:
-  number: 1
+  number: 2
   skip:
     - win
 
@@ -106,6 +106,9 @@ tests:
         - ostap
         - ostap.core.core
         - ostap.core.pyrouts
+  - script:
+    - ostap --help
+    - check-dependencies 
 
 about:
   license: BSD-3-Clause
