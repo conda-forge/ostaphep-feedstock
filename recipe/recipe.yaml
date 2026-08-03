@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: OstapHEP
-  version: "3.7.5.0"
+  version: "3.8.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,11 +10,11 @@ package:
 
 source:
   url: https://github.com/OstapHEP/ostap/archive/v${{ version }}.tar.gz
-  sha256: 4bd2ceeeff74b8f79defe7b8739919d7cadac541ccf2c0a816c35b0172e2198a 
+  sha256: d760fb310cdce1cb67569a78f3a73588ce494b2d86aaaf5fd5c4bee6d2e5bb53
   target_directory: ostap
- 
+
 build:
-  number: 2
+  number: 0
   skip:
     - win
 
@@ -27,8 +27,8 @@ requirements:
     - make
     - ninja
     - pip
-    - setuptools 
-    - wheel 
+    - setuptools
+    - wheel
   host:
     - root_base
     - root_cxx_standard
@@ -52,7 +52,7 @@ requirements:
     - tabulate
     - terminaltables
     - pathvalidate
-    - packaging 
+    - packaging
     - libdb
     - duckdb
     - fasteners
@@ -63,7 +63,7 @@ requirements:
     - lightgbm
     - sweetviz
     - hep_ml
-    - py-cpuinfo 
+    - py-cpuinfo
   run:
     - python
     - ipython
@@ -97,9 +97,9 @@ requirements:
     - lightgbm
     - sweetviz
     - hep_ml
-    - py-cpuinfo 
-    - parallel 
-    
+    - py-cpuinfo
+    - parallel
+
 tests:
   - python:
       imports:
@@ -107,8 +107,8 @@ tests:
         - ostap.core.core
         - ostap.core.pyrouts
   - script:
-    - ostap --help
-    - check-dependencies 
+      - ostap --help
+      - check-dependencies
 
 about:
   license: BSD-3-Clause
