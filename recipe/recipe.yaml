@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: OstapHEP
-  version: "3.8.6.8"
+  version: "v3.8.6.6"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://github.com/OstapHEP/ostap/archive/v${{ version }}.tar.gz
-  sha256: 411ed8c3d5be1146eee3b42c73535d9daea83844115be12f0db572e667b2d5fc
+  url: https://github.com/OstapHEP/ostap/archive/${{ version }}.tar.gz
+  sha256: 5127d5c397a1a3a3e728c7117180acbad1a958b7f8f437006c65b779b0b43ef6
   target_directory: ostap
 
 build:
