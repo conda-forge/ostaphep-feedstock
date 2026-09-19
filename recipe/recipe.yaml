@@ -39,7 +39,7 @@ requirements:
     - numba
     - cffi
     - pip
-    - setuptoolse
+    - setuptools
     - pathos
     - dill
     - multiprocess
