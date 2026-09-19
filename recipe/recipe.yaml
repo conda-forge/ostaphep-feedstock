@@ -26,9 +26,6 @@ requirements:
     - cmake
     - make
     - ninja
-    - pip
-    - setuptools
-    - wheel
   host:
     - root_base
     - root_cxx_standard
@@ -39,6 +36,7 @@ requirements:
     - numba
     - cffi
     - pip
+    - wheel
     - setuptools
     - pathos
     - dill
